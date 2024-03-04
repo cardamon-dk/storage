@@ -1,4 +1,4 @@
 import local from 'base-local-storage';
 import session from 'base-session-storage';
-
-export { local, session };
+import indexdb from 'base-indexdb'
+export { local, session, indexdb };
